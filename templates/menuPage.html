@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+           
+    </head>
+    <style>
+        body{
+            background-color: darkgrey;
+        }
+
+        toLogin, tosignUp{
+            border: none;
+            background-color: lightgrey;
+            padding: 50px 64px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 22px;
+            margin: auto;
+            cursor: pointer;
+            
+        }
+        toLogin{
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+        }
+        toSignUp{
+            position: absolute;
+            top: 50%;
+            left: 65%;
+            transform: translate(-50%, -50%);
+        }
+        toLogin:hover, toSignUp:hover{
+            background-color: white;
+
+        }
+    </style>
+
+
+    <body>
+        <header>NEA Note App</header>
+
+        
+        <div class="buttonBox">
+            <a href="login"><toLogin type="button">Login</toLogin>
+            <a href="signup"><toSignUp type="button">Sign Up</toSignUp>
+        </div>
+    </body>
+</html>
