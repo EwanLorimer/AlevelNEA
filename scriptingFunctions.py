@@ -12,7 +12,8 @@ class funcs:
                 return False
         else:
             return False
-
+    def fornewPush():
+        return 1
 
 
 
