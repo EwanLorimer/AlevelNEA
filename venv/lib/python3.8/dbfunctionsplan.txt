@@ -1,0 +1,10 @@
+We will need to be able to:
+
+SignUp page:
+Check username doesn't already exist
+
+Create record with username and password that has been entered into form
+
+Login Page:
+Search for a username
+Make sure that the corresponding password matches the entered password
